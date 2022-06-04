@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search_devices"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_person_add"
+        android:title="@string/str_menu_search_devices"/>
+    <item
+        android:id="@+id/menu_enable_bluetooth"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_bluetooth"
+        android:title="@string/str_menu_bluetooth_on"/>
+    <item
+        android:id="@+id/menu_disconnect"
+        android:title="@string/str_menu_disconnect"/>
+</menu>
